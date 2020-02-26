@@ -1,5 +1,7 @@
 package com.adira.mock.rest;
 
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,8 +14,8 @@ import com.google.gson.JsonSyntaxException;
 @RequestMapping("/api")
 public class RestResponse {
 	
-
-   public JsonElement parse() throws JsonSyntaxException {
+  @PostMapping("test/gson")
+  public JsonElement parse() throws JsonSyntaxException {
 	   String str = "{\r\n" + 
 	   		"    \"header\": {\r\n" + 
 	   		"        \"code\": \"ESB-00-000\",\r\n" + 
@@ -169,8 +171,11 @@ public class RestResponse {
    }
 	
 	@PostMapping("pefindo/v1/getPefindoReport")
-	public String hello() {
-		return "{\r\n" + 
+	public ResponseEntity<String> hello() {
+		 HttpHeaders responseHeaders = new HttpHeaders();
+		    responseHeaders.set("Content-Type", 
+		      "application/json");
+		String str = "{\r\n" + 
 				"    \"header\": {\r\n" + 
 				"        \"code\": \"ESB-00-000\",\r\n" + 
 				"        \"message\": \"Permintaan berhasil diproses\",\r\n" + 
@@ -320,5 +325,7 @@ public class RestResponse {
 				"        ]\r\n" + 
 				"    }\r\n" + 
 				"}";
+	
+	return ResponseEntity.ok().headers(responseHeaders).body(str);
 	}
 }
