@@ -175,16 +175,16 @@ public class RestResponse {
 		 HttpHeaders responseHeaders = new HttpHeaders();
 		    responseHeaders.set("Content-Type", 
 		      "application/json");
-		String str = "{\r\n" + 
+		String str = "[18:40, 02/03/2020] +62 877-7288-8104: {\r\n" + 
 				"    \"header\": {\r\n" + 
 				"        \"code\": \"ESB-00-000\",\r\n" + 
 				"        \"message\": \"Permintaan berhasil diproses\",\r\n" + 
 				"        \"srcCode\": \"200\",\r\n" + 
 				"        \"srcMessage\": \"\",\r\n" + 
 				"        \"addInfo\": {\r\n" + 
-				"            \"requestId\": \"8c761d2a-7fe2-4d56-8401-53ba9680c48a\",\r\n" + 
-				"            \"requestTimestamp\": \"2020-02-11 18:22:27\",\r\n" + 
-				"            \"refNo\": \"20200211182227624315821723937936\",\r\n" + 
+				"            \"requestId\": \"7f8da659-8c2c-4ef5-bc55-c609472227fa\",\r\n" + 
+				"            \"requestTimestamp\": \"2020-02-20 19:59:53\",\r\n" + 
+				"            \"refNo\": \"20200221141147427433003044959851\",\r\n" + 
 				"            \"srcTarget\": \"0\"\r\n" + 
 				"        }\r\n" + 
 				"    },\r\n" + 
@@ -193,22 +193,22 @@ public class RestResponse {
 				"            {\r\n" + 
 				"                \"amountAktifDurable\": \"0.0\",\r\n" + 
 				"                \"amountAktifMobil\": \"0.0\",\r\n" + 
-				"                \"amountAktifMotor\": \"0.0\",\r\n" + 
+				"                \"amountAktifMotor\": \"400000.0\",\r\n" + 
 				"                \"amountDurable\": \"0.0\",\r\n" + 
 				"                \"amountMobil\": \"0.0\",\r\n" + 
-				"                \"amountMotor\": \"959000.0\",\r\n" + 
-				"                \"brmsOid\": \"02121321884325\",\r\n" + 
+				"                \"amountMotor\": \"400000.0\",\r\n" + 
+				"                \"brmsOid\": \"02121003436912\",\r\n" + 
 				"                \"denda\": \"0.0\",\r\n" + 
 				"                \"installment\": \"0.0\",\r\n" + 
 				"                \"instDurable\": \"\",\r\n" + 
 				"                \"instMobil\": \"\",\r\n" + 
-				"                \"instMotor\": \"12\",\r\n" + 
+				"                \"instMotor\": \"0\",\r\n" + 
 				"                \"kelurahanDurable\": \"\",\r\n" + 
 				"                \"kelurahanMobil\": \"\",\r\n" + 
-				"                \"kelurahanMotor\": \"89333\",\r\n" + 
+				"                \"kelurahanMotor\": \"89520\",\r\n" + 
 				"                \"lastAngsuran\": \"\",\r\n" + 
 				"                \"lastTenor\": \"\",\r\n" + 
-				"                \"lastTenorContract\": \"12\",\r\n" + 
+				"                \"lastTenorContract\": \"35\",\r\n" + 
 				"                \"maxOd\": \"0\",\r\n" + 
 				"                \"maxTglRepoLain\": \"\",\r\n" + 
 				"                \"maxTglRepoMobil\": \"\",\r\n" + 
@@ -232,50 +232,50 @@ public class RestResponse {
 				"                \"od12\": \"0\",\r\n" + 
 				"                \"odLast6Drbl\": \"0\",\r\n" + 
 				"                \"odLast6Mbl\": \"0\",\r\n" + 
-				"                \"odLast6Mtr\": \"4\",\r\n" + 
+				"                \"odLast6Mtr\": \"0\",\r\n" + 
 				"                \"otrDurable\": \"\",\r\n" + 
 				"                \"otrMobil\": \"\",\r\n" + 
-				"                \"otrMotor\": \"13000000\",\r\n" + 
+				"                \"otrMotor\": \"12015000\",\r\n" + 
 				"                \"phDurable\": \"\",\r\n" + 
 				"                \"phMobil\": \"\",\r\n" + 
-				"                \"phMotor\": \"9537000\",\r\n" + 
-				"                \"plAktif\": \"0.0\",\r\n" + 
+				"                \"phMotor\": \"9590900\",\r\n" + 
+				"                \"plAktif\": \"9590900.0\",\r\n" + 
 				"                \"tenorAktifDurable\": \"0\",\r\n" + 
 				"                \"tenorAktifMobil\": \"0\",\r\n" + 
 				"                \"tenorAktifMotor\": \"0\",\r\n" + 
 				"                \"tenorLunasDurable\": \"0\",\r\n" + 
 				"                \"tenorLunasMobil\": \"0\",\r\n" + 
-				"                \"tenorLunasMotor\": \"12\",\r\n" + 
+				"                \"tenorLunasMotor\": \"35\",\r\n" + 
 				"                \"tglMaxLunasDrbl\": \"\",\r\n" + 
 				"                \"tglMaxLunasMbl\": \"\",\r\n" + 
-				"                \"tglMaxLunasMtr\": \"07-12-0006\",\r\n" + 
+				"                \"tglMaxLunasMtr\": \"\",\r\n" + 
 				"                \"tglReject\": \"\",\r\n" + 
 				"                \"totalInstalment\": \"0.0\",\r\n" + 
 				"                \"tunggakan\": \"0.0\",\r\n" + 
 				"                \"zipCodeDurable\": \"\",\r\n" + 
 				"                \"zipCodeMobil\": \"\",\r\n" + 
-				"                \"zipCodeMotor\": \"41555\"\r\n" + 
+				"                \"zipCodeMotor\": \"45153\"\r\n" + 
 				"            },\r\n" + 
 				"            {\r\n" + 
-				"                \"amountAktifDurable\": \"775000.0\",\r\n" + 
+				"                \"amountAktifDurable\": \"1131000.0\",\r\n" + 
 				"                \"amountAktifMobil\": \"0.0\",\r\n" + 
-				"                \"amountAktifMotor\": \"761000.0\",\r\n" + 
-				"                \"amountDurable\": \"306000.0\",\r\n" + 
+				"                \"amountAktifMotor\": \"0.0\",\r\n" + 
+				"                \"amountDurable\": \"420000.0\",\r\n" + 
 				"                \"amountMobil\": \"0.0\",\r\n" + 
-				"                \"amountMotor\": \"862000.0\",\r\n" + 
+				"                \"amountMotor\": \"0.0\",\r\n" + 
 				"                \"brmsOid\": \"\",\r\n" + 
-				"                \"denda\": \"856285.0\",\r\n" + 
+				"                \"denda\": \"6285.0\",\r\n" + 
 				"                \"installment\": \"0.0\",\r\n" + 
-				"                \"instDurable\": \"5\",\r\n" + 
+				"                \"instDurable\": \"0\",\r\n" + 
 				"                \"instMobil\": \"\",\r\n" + 
-				"                \"instMotor\": \"12\",\r\n" + 
-				"                \"kelurahanDurable\": \"89333\",\r\n" + 
+				"                \"instMotor\": \"\",\r\n" + 
+				"                \"kelurahanDurable\": \"89520\",\r\n" + 
 				"                \"kelurahanMobil\": \"\",\r\n" + 
-				"                \"kelurahanMotor\": \"89333\",\r\n" + 
-				"                \"lastAngsuran\": \"1\",\r\n" + 
-				"                \"lastTenor\": \"15\",\r\n" + 
+				"                \"kelurahanMotor\": \"\",\r\n" + 
+				"                \"lastAngsuran\": \"\",\r\n" + 
+				"                \"lastTenor\": \"3\",\r\n" + 
 				"                \"lastTenorContract\": \"12\",\r\n" + 
-				"                \"maxOd\": \"117\",\r\n" + 
+				"                \"maxOd\": \"2\",\r\n" + 
 				"                \"maxTglRepoLain\": \"\",\r\n" + 
 				"                \"maxTglRepoMobil\": \"\",\r\n" + 
 				"                \"maxTglRepoMotor\": \"\",\r\n" + 
@@ -284,43 +284,43 @@ public class RestResponse {
 				"                \"maxTglWoMobil\": \"\",\r\n" + 
 				"                \"maxTglWoMotor\": \"\",\r\n" + 
 				"                \"od0\": \"0\",\r\n" + 
-				"                \"od1\": \"29\",\r\n" + 
-				"                \"od2\": \"60\",\r\n" + 
-				"                \"od3\": \"90\",\r\n" + 
-				"                \"od4\": \"117\",\r\n" + 
-				"                \"od5\": \"28\",\r\n" + 
-				"                \"od6\": \"39\",\r\n" + 
-				"                \"od7\": \"38\",\r\n" + 
-				"                \"od8\": \"41\",\r\n" + 
-				"                \"od9\": \"7\",\r\n" + 
-				"                \"od10\": \"11\",\r\n" + 
-				"                \"od11\": \"8\",\r\n" + 
-				"                \"od12\": \"12\",\r\n" + 
+				"                \"od1\": \"0\",\r\n" + 
+				"                \"od2\": \"1\",\r\n" + 
+				"                \"od3\": \"2\",\r\n" + 
+				"                \"od4\": \"0\",\r\n" + 
+				"                \"od5\": \"2\",\r\n" + 
+				"                \"od6\": \"2\",\r\n" + 
+				"                \"od7\": \"1\",\r\n" + 
+				"                \"od8\": \"2\",\r\n" + 
+				"                \"od9\": \"2\",\r\n" + 
+				"                \"od10\": \"1\",\r\n" + 
+				"                \"od11\": \"2\",\r\n" + 
+				"                \"od12\": \"2\",\r\n" + 
 				"                \"odLast6Drbl\": \"0\",\r\n" + 
 				"                \"odLast6Mbl\": \"0\",\r\n" + 
 				"                \"odLast6Mtr\": \"0\",\r\n" + 
-				"                \"otrDurable\": \"2700000\",\r\n" + 
+				"                \"otrDurable\": \"3700000\",\r\n" + 
 				"                \"otrMobil\": \"\",\r\n" + 
-				"                \"otrMotor\": \"10400000\",\r\n" + 
-				"                \"phDurable\": \"2700000\",\r\n" + 
+				"                \"otrMotor\": \"\",\r\n" + 
+				"                \"phDurable\": \"3700000\",\r\n" + 
 				"                \"phMobil\": \"\",\r\n" + 
-				"                \"phMotor\": \"8474600\",\r\n" + 
-				"                \"plAktif\": \"1.75228E7\",\r\n" + 
+				"                \"phMotor\": \"\",\r\n" + 
+				"                \"plAktif\": \"1.019E7\",\r\n" + 
 				"                \"tenorAktifDurable\": \"0\",\r\n" + 
 				"                \"tenorAktifMobil\": \"0\",\r\n" + 
 				"                \"tenorAktifMotor\": \"0\",\r\n" + 
 				"                \"tenorLunasDurable\": \"12\",\r\n" + 
 				"                \"tenorLunasMobil\": \"0\",\r\n" + 
-				"                \"tenorLunasMotor\": \"18\",\r\n" + 
+				"                \"tenorLunasMotor\": \"0\",\r\n" + 
 				"                \"tglMaxLunasDrbl\": \"\",\r\n" + 
 				"                \"tglMaxLunasMbl\": \"\",\r\n" + 
-				"                \"tglMaxLunasMtr\": \"08-10-0031\",\r\n" + 
+				"                \"tglMaxLunasMtr\": \"\",\r\n" + 
 				"                \"tglReject\": \"\",\r\n" + 
-				"                \"totalInstalment\": \"1536000.0\",\r\n" + 
-				"                \"tunggakan\": \"5654999.0\",\r\n" + 
-				"                \"zipCodeDurable\": \"41555\",\r\n" + 
+				"                \"totalInstalment\": \"420000.0\",\r\n" + 
+				"                \"tunggakan\": \"4200000.0\",\r\n" + 
+				"                \"zipCodeDurable\": \"45153\",\r\n" + 
 				"                \"zipCodeMobil\": \"\",\r\n" + 
-				"                \"zipCodeMotor\": \"41555\"\r\n" + 
+				"                \"zipCodeMotor\": \"\"\r\n" + 
 				"            }\r\n" + 
 				"        ]\r\n" + 
 				"    }\r\n" + 
