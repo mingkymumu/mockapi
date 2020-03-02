@@ -175,7 +175,7 @@ public class RestResponse {
 		 HttpHeaders responseHeaders = new HttpHeaders();
 		    responseHeaders.set("Content-Type", 
 		      "application/json");
-		String str = "[18:40, 02/03/2020] +62 877-7288-8104: {\r\n" + 
+		String str = "{\r\n" + 
 				"    \"header\": {\r\n" + 
 				"        \"code\": \"ESB-00-000\",\r\n" + 
 				"        \"message\": \"Permintaan berhasil diproses\",\r\n" + 
