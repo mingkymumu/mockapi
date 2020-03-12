@@ -211,7 +211,7 @@ public class RestResponse {
 				"                \"lastTenor\": \"\",\r\n" + 
 				"                \"lastTenorContract\": \"35\",\r\n" + 
 				"                \"maxOd\": \"0\",\r\n" + 
-				"                \"maxTglRepoLain\": \"\",\r\n" + 
+				"                \"maxTglRepoLain\": \"12-03-2020\",\r\n" + 
 				"                \"maxTglRepoMobil\": \"\",\r\n" + 
 				"                \"maxTglRepoMotor\": \"\",\r\n" + 
 				"                \"maxTglWoDurable\": \"\",\r\n" + 
