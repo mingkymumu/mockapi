@@ -1,6 +1,7 @@
 package com.adira.mock.rest;
 
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -1544,6 +1545,17 @@ public class RestResponse {
 				"}";
 	
 	return ResponseEntity.ok().headers(responseHeaders).body(str);
+	}
+	
+	@PostMapping("/dukcapil/v1/getEktpBalanceUser")
+	public ResponseEntity<String> mockError() {
+		try {
+			Thread.sleep(120000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 	
 }
