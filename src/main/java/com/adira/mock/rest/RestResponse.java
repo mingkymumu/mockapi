@@ -52,7 +52,7 @@ public class RestResponse {
 	   		"                \"lastTenor\": \"\",\r\n" + 
 	   		"                \"lastTenorContract\": \"12\",\r\n" + 
 	   		"                \"maxOd\": \"0\",\r\n" + 
-	   		"                \"maxTglRepoLain\": \"\",\r\n" + 
+	   		"                \"maxTglRepoLain\": \"12-03-2020\",\r\n" + 
 	   		"                \"maxTglRepoMobil\": \"\",\r\n" + 
 	   		"                \"maxTglRepoMotor\": \"\",\r\n" + 
 	   		"                \"maxTglWoDurable\": \"\",\r\n" + 
@@ -118,7 +118,7 @@ public class RestResponse {
 	   		"                \"lastTenor\": \"15\",\r\n" + 
 	   		"                \"lastTenorContract\": \"12\",\r\n" + 
 	   		"                \"maxOd\": \"117\",\r\n" + 
-	   		"                \"maxTglRepoLain\": \"\",\r\n" + 
+	   		"                \"maxTglRepoLain\": \"12-03-2020\",\r\n" + 
 	   		"                \"maxTglRepoMobil\": \"\",\r\n" + 
 	   		"                \"maxTglRepoMotor\": \"\",\r\n" + 
 	   		"                \"maxTglWoDurable\": \"\",\r\n" + 
@@ -277,7 +277,7 @@ public class RestResponse {
 				"                \"lastTenor\": \"3\",\r\n" + 
 				"                \"lastTenorContract\": \"12\",\r\n" + 
 				"                \"maxOd\": \"2\",\r\n" + 
-				"                \"maxTglRepoLain\": \"\",\r\n" + 
+				"                \"maxTglRepoLain\": \"12-03-2020\",\r\n" + 
 				"                \"maxTglRepoMobil\": \"\",\r\n" + 
 				"                \"maxTglRepoMotor\": \"\",\r\n" + 
 				"                \"maxTglWoDurable\": \"\",\r\n" + 
